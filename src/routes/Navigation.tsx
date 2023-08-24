@@ -7,9 +7,8 @@ import {
 } from 'react-router-dom';
 
 import logo from '../logo.svg';
-import { LazyPage1 } from '../01-lazyload/pages/LazyPage1';
-import { LazyPage2 } from '../01-lazyload/pages/LazyPage2';
-import { LazyPage3 } from '../01-lazyload/pages/LazyPage3';
+import { LazyPage1, LazyPage2, LazyPage3 } from '../01-lazyload/pages';
+
 
 
 export const Navigation = () => {
@@ -22,17 +21,17 @@ export const Navigation = () => {
             <li>
               <NavLink to="/lazy1" className={({ isActive }) =>
                 isActive ? "nav-active" : ""
-              } >Home</NavLink>
+              } >lazy1</NavLink>
             </li>
             <li>
               <NavLink to="/lazy2" className={({ isActive }) =>
                 isActive ? "nav-active" : ""
-              } >About</NavLink>
+              } >lazy2</NavLink>
             </li>
             <li>
               <NavLink to="/lazy3" className={({ isActive }) =>
                 isActive ? "nav-active" : ""
-              } >Users</NavLink>
+              } >lazy3</NavLink>
             </li>
           </ul>
         </nav>
