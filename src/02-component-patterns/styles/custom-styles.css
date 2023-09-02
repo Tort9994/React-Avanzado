@@ -4,6 +4,7 @@
 .text-white {
   color: white;
 }
+
 .custom-image {
   padding: 10px;
   border-radius: 20px;
@@ -13,4 +14,14 @@
 .custom-buttons div {
   color: white;
   border: 1px solid white;
+}
+.custom-buttons-black button,
+.custom-buttons-black div {
+  color: black;
+  border: 1px solid white;
+}
+.shopping-cart {
+  position: fixed;
+  right: 10px;
+  top: 0px;
 }
